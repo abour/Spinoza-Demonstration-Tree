@@ -85,7 +85,7 @@ func displayDependencies<T:Displayable>(element:T, graph:Dictionary<T, [T]>, ite
 
 func displayAll<T:Displayable>(proposals:[T], graph:Dictionary<T, [T]>) {
     for p in proposals {
-        print("\n\nDemonstration de : ", terminator:"")
+        print("\n\nDemonstration of : ", terminator:"")
         print(p)
         print("")
         
